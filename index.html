@@ -12,6 +12,8 @@
 
     <button type="submit" onclick="sum()">Shumo</button>
     <button type="submit" onclick="minus()">Zbrit</button>
+    <button type="submit" onclick="times()">Zbrit</button>
+    <button type="submit" onclick="devide()">Zbrit</button>
 
     <p id="result"></p>
 
@@ -29,6 +31,24 @@
         let nr1=Number(document.getElementById('nr1').value);
         let nr2=Number(document.getElementById('nr2').value);
         let c=nr1-nr2;
+        
+        document.getElementById('result').innerHTML=c;
+        
+      }
+
+       function times(){
+        let nr1=Number(document.getElementById('nr1').value);
+        let nr2=Number(document.getElementById('nr2').value);
+        let c=nr1*nr2;
+        
+        document.getElementById('result').innerHTML=c;
+        
+      }
+
+       function devide(){
+        let nr1=Number(document.getElementById('nr1').value);
+        let nr2=Number(document.getElementById('nr2').value);
+        let c=nr1/nr2;
         
         document.getElementById('result').innerHTML=c;
         

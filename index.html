@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <meta charest="UTF -8">
-  <title>Java 1</title>
+  <head>
+    <meta charest="UTF -8">
+    <title>Java 1</title>
+    <style>
+      #shumo{
+        height:40;
+        width:60;
+      }    
+    </style>
+  </head>
   <body>
     <label>Numri i pare</label>
     <input type="number" id="nr1">
@@ -10,10 +18,10 @@
     <input type="number" id="nr2">
     <br>
 
-    <button type="submit" onclick="sum()">Shumo</button>
-    <button type="submit" onclick="minus()">Zbrit</button>
-    <button type="submit" onclick="times()">Shumezim</button>
-    <button type="submit" onclick="devide()">Pjestim</button>
+    <button type="submit" onclick="sum()" id="shumo">Shumo</button>
+    <button type="submit" onclick="minus()" id="Zbrit">Zbrit</button>
+    <button type="submit" onclick="times()" id="Shumezim">Shumezim</button>
+    <button type="submit" onclick="devide()" id="Pjestim">Pjestim</button>
 
     <p id="result"></p>
 
